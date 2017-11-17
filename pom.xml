@@ -284,7 +284,7 @@
                 <dependency>
                   <groupId>org.mortbay.jetty.alpn</groupId>
                   <artifactId>alpn-boot</artifactId>
-                  <version>${alpn.jdk7.version}</version>
+                  <version>${alpn.jdk8.version}</version>
                 </dependency>
               </dependencies>
             </plugin>
@@ -299,7 +299,7 @@
       </activation>
       <properties>
         <bootclasspathPrefix>
-          ${settings.localRepository}/org/mortbay/jetty/alpn/alpn-boot/${alpn.jdk8.version}/alpn-boot-${alpn.jdk8.version}.jar
+          ${settings.localRepository}/org/mortbay/jetty/alpn/alpn-boot/${alpn.jdk7.version}/alpn-boot-${alpn.jdk7.version}.jar
         </bootclasspathPrefix>
         <okhttp.platform>jdk-with-jetty-boot</okhttp.platform>
       </properties>
